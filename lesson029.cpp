@@ -1,7 +1,10 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
+
+/*
 int main() {
 	int SpeedLimitation{ 150 };
 	double Speed{ 250.0 };
@@ -18,12 +21,18 @@ int main() {
 	SpeedLimitation = static_cast<int>(Speed);
 	cout << "Int Value: " << SpeedLimitation << endl;
 
+	Speed = 250.99;
+	cout << "Double Value: " << Speed << endl;
+	SpeedLimitation = static_cast<int>(Speed);
+	cout << "Int Value: " << SpeedLimitation << endl;
 
-
+	SpeedLimitation = round(Speed);
+	cout << "Double Value: " << Speed << endl;
+	cout << "Int Value: " << SpeedLimitation << endl;
 
 	return 0;
 }
-
+*/
 
 
 
