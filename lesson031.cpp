@@ -4,7 +4,7 @@
 
 using namespace std;
 
-
+/*
 int main() {
 	string Name{ "John" };
 	cout << Name << endl;
@@ -28,27 +28,25 @@ int main() {
 
 	double PI{ 3.14159265 };
 	int MoreNumber{ 123 };
-	string FormattedDouble{ format("{:.2}", PI) };
+	string FormattedDouble{ format("Default: \t\t{:.2}", PI) };
 	cout << FormattedDouble << endl;
 
-	string FormattedDouble1{ format("{:.2f}", PI) };
+	string FormattedDouble1{ format("Fixed Double: \t\t{:.2f}", PI) };
 	cout << FormattedDouble1 << endl;
 
-	string FormattedBinary{ format("{:b}", MoreNumber) };
+	string FormattedBinary{ format("Binary: \t\t{:b}", MoreNumber) };
 	cout << FormattedBinary << endl;
 
-	string FormattedHex{ format("{:x}", MoreNumber) };
+	string FormattedHex{ format("Hexadecimal: \t\t{:x}", MoreNumber) };
 	cout << FormattedHex << endl;
 
-	string FormattedHex1{ format("{:#x}", MoreNumber) };
+	string FormattedHex1{ format("Alt Hexadecimal: \t{:#x}", MoreNumber) };
 	cout << FormattedHex1 << endl;
 
-	string FormattedHexS{ format("{:.2e}", PI) };
+	string FormattedHexS{ format("Scientific: \t\t{:.2e}", PI) };
 	cout << FormattedHexS << endl;
-
-
 
 	return 0;
 }
-
+*/
 
