@@ -27,11 +27,24 @@ int main() {
 	cout << "-----------------------------\n\n";
 
 	double PI{ 3.14159265 };
+	int MoreNumber{ 123 };
 	string FormattedDouble{ format("{:.2}", PI) };
 	cout << FormattedDouble << endl;
 
 	string FormattedDouble1{ format("{:.2f}", PI) };
 	cout << FormattedDouble1 << endl;
+
+	string FormattedBinary{ format("{:b}", MoreNumber) };
+	cout << FormattedBinary << endl;
+
+	string FormattedHex{ format("{:x}", MoreNumber) };
+	cout << FormattedHex << endl;
+
+	string FormattedHex1{ format("{:#x}", MoreNumber) };
+	cout << FormattedHex1 << endl;
+
+	string FormattedHexS{ format("{:.2e}", PI) };
+	cout << FormattedHexS << endl;
 
 
 
